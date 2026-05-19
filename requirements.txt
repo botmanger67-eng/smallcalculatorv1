@@ -1,0 +1,74 @@
+# Core dependencies
+python-dotenv==1.0.1
+pydantic==2.9.2
+pydantic-settings==2.6.0
+typing-extensions==4.12.2
+
+# Data processing
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==17.0.0
+
+# HTTP and API
+httpx==0.28.1
+requests==2.32.3
+aiohttp==3.10.10
+aiofiles==24.1.0
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# Caching
+redis==5.2.1
+aioredis==2.0.1
+
+# Message queues
+celery==5.4.0
+redis==5.2.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
+pytest-mock==3.14.0
+pytest-xdist==3.6.1
+coverage==7.6.8
+
+# Code quality
+black==24.10.0
+isort==5.13.2
+ruff==0.8.0
+mypy==1.13.0
+pre-commit==4.0.1
+
+# Logging
+loguru==0.7.3
+structlog==24.4.0
+
+# Monitoring and observability
+opentelemetry-api==1.28.2
+opentelemetry-sdk==1.28.2
+opentelemetry-instrumentation==0.49b2
+opentelemetry-exporter-otlp==1.28.2
+prometheus-client==0.21.1
+
+# Security
+cryptography==44.0.0
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.2.1
+python-multipart==0.0.18
+
+# Utilities
+click==8.1.7
+rich==13.9.4
+tqdm==4.67.1
+pyyaml==6.0.2
+tomli==2.2.1
+orjson==3.10.12
+ujson==5.10.0
+python-dateutil==2.9.0
+pytz==2024.2
